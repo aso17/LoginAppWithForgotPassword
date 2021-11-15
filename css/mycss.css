@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(186, 179, 171);
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin: 0;
+    /* padding: 10px; */
+    border: bisque;
+  }
+  .col {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px;
+    /* padding: 10px; */
+  }
+  .col input {
+    width: 90%;
+  }
+  #label {
+    margin-left: 10px;
+  }
+  #forgot {
+    margin-left: 10px;
+  }
+  .col .login {
+    width: 80%;
+    margin-left: 0;
+  }
+}
+.container {
+  width: 60%;
+  margin: 50px auto;
+  padding: 50px;
+  display: flex;
+}
+section {
+  width: 55%;
+  margin: 50px auto;
+  border: 1px solid;
+  background-color: bisque;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border: bisque;
+  padding: 1rem;
+}
+
+.col {
+  width: 100%;
+  /* border: 1px solid; */
+  border-radius: 5px;
+  margin: 7px auto;
+  text-align: center;
+}
+label {
+  margin-left: 25%;
+}
+
+span {
+  margin-left: 30%;
+}
+input {
+  width: 50%;
+  padding: 9px;
+  border-radius: 10px;
+  border: rgb(205, 192, 192);
+  /* width: 80%; */
+}
+h3 {
+  text-align: center;
+  margin: 2rem;
+}
+span a {
+  color: black;
+  margin-left: 80px;
+  text-decoration: none;
+  color: blue;
+  margin-top: -5px;
+}
+.login {
+  width: 50%;
+  padding: 8px;
+  background-color: rgb(205, 192, 192);
+  color: rgb(1, 1, 1);
+  border-radius: 5px;
+  border: rgb(205, 192, 192);
+  margin-top: 1rem;
+  margin-left: 10px;
+  cursor: pointer;
+  border: 1px solid;
+  margin-bottom: 1rem;
+  /* font-size: large; */
+}
+
+.login:hover {
+  background-color: burlywood;
+  color: antiquewhite;
+}
+#acount {
+  text-decoration: none;
+  text-align: right;
+  margin: 20px;
+}
+#back {
+  background-color: rgb(97, 74, 44);
+  width: 15%;
+  border-radius: 10px;
+  color: aliceblue;
+}
+#back:hover {
+  background-color: aliceblue;
+  color: rgb(97, 74, 44);
+  border-color: rgb(97, 74, 44);
+}
